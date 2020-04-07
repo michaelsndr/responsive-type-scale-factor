@@ -1,2 +1,2 @@
 # Responsive Type Scale Factor
-A type scale that gets steeper on larger devices.
+In the spirit of fluid typography, a type scale that is flatter in smaller viewports and progressively steeper in larger ones.
