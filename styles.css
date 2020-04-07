@@ -1,0 +1,33 @@
+* {
+  margin: 1rem 0.5rem;
+}
+
+:root {
+  --tsf: 1.25;
+  --base-size: 16px;
+}
+
+h1 {
+  font-size: calc(var(--base-size) * var(--tsf) * var(--tsf) * var(--tsf) * var(--tsf) * var(--tsf));
+}
+
+h2 {
+  font-size: calc(var(--base-size) * var(--tsf) * var(--tsf) * var(--tsf) * var(--tsf));
+}
+
+h3 {
+  font-size: calc(var(--base-size) * var(--tsf) * var(--tsf) * var(--tsf));
+}
+
+h4 {
+  font-size: calc(var(--base-size) * var(--tsf) * var(--tsf));
+}
+
+h5 {
+  font-size: calc(var(--base-size) * var(--tsf));
+}
+
+p {
+  font-size: calc(var(--base-size));
+}
+/*# sourceMappingURL=styles.css.map */
