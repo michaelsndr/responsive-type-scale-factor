@@ -5,3 +5,4 @@ In the spirit of fluid typography, a type scale that is flatter in smaller viewp
 
 Demo:
 https://michaelsndr.github.io/responsive-type-scale-factor/
+https://codepen.io/msdr/pen/PoqMMBz
