@@ -8,6 +8,12 @@
   --base-size: 16px;
 }
 
+@media screen and (min-width: 992px) {
+  :root {
+    --base-size: 17px;
+  }
+}
+
 html {
   font-size: var(--base-size);
 }
