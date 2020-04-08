@@ -8,6 +8,10 @@
   --base-size: 16px;
 }
 
+html {
+  font-size: var(--base-size);
+}
+
 h1 {
   font-size: calc(var(--base-size) * var(--tsf) * var(--tsf) * var(--tsf) * var(--tsf) * var(--tsf));
 }
@@ -26,8 +30,4 @@ h4 {
 
 h5 {
   font-size: calc(var(--base-size) * var(--tsf));
-}
-
-p {
-  font-size: calc(var(--base-size));
 }
