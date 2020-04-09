@@ -1,0 +1,148 @@
+/* tsf = type scale factor (size increase from headline to headline) */
+@media screen and (min-width: 300px) {
+  html {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 30.17036px;
+  }
+  h2 {
+    font-size: 26.23509px;
+  }
+  h3 {
+    font-size: 22.81312px;
+  }
+  h4 {
+    font-size: 19.8375px;
+  }
+  h5 {
+    font-size: 17.25px;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 38.44979px;
+  }
+  h2 {
+    font-size: 32.26556px;
+  }
+  h3 {
+    font-size: 27.07599px;
+  }
+  h4 {
+    font-size: 22.72111px;
+  }
+  h5 {
+    font-size: 19.06667px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 45.65857px;
+  }
+  h2 {
+    font-size: 37.02046px;
+  }
+  h3 {
+    font-size: 30.01659px;
+  }
+  h4 {
+    font-size: 24.33778px;
+  }
+  h5 {
+    font-size: 19.73333px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 53.9102px;
+  }
+  h2 {
+    font-size: 42.28251px;
+  }
+  h3 {
+    font-size: 33.16275px;
+  }
+  h4 {
+    font-size: 26.01px;
+  }
+  h5 {
+    font-size: 20.4px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 63.31392px;
+  }
+  h2 {
+    font-size: 48.08652px;
+  }
+  h3 {
+    font-size: 36.52141px;
+  }
+  h4 {
+    font-size: 27.73778px;
+  }
+  h5 {
+    font-size: 21.06667px;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  html {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 78.61053px;
+  }
+  h2 {
+    font-size: 57.87278px;
+  }
+  h3 {
+    font-size: 42.60573px;
+  }
+  h4 {
+    font-size: 31.36618px;
+  }
+  h5 {
+    font-size: 23.09167px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+  h1 {
+    font-size: 91.43008px;
+  }
+  h2 {
+    font-size: 65.3072px;
+  }
+  h3 {
+    font-size: 46.648px;
+  }
+  h4 {
+    font-size: 33.32px;
+  }
+  h5 {
+    font-size: 23.8px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

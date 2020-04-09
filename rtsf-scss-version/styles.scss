@@ -1,0 +1,51 @@
+/* tsf = type scale factor (increase headline to headline in %) */
+$tsf-smallest-query: 1.15; // Setup
+$tsf-largest-query: 1.4; // Setup
+$tsf-delta: $tsf-largest-query - $tsf-smallest-query;
+$tsf-queries-num: 6; // Setup - increase for smoother transition
+$tsf-delta-per-query: $tsf-delta / $tsf-queries-num;
+$base-size: 15px; // Setup
+
+$tsf: $tsf-smallest-query;
+$query-smallest: 300; // Setup
+$query-largest: 1200; // Setup
+$query-delta: ($query-largest - $query-smallest) / $tsf-queries-num;
+
+@for $i from 0 through $tsf-queries-num {
+  $window-width: $query-smallest + $query-delta * $i;
+  @if $window-width >= 420 {
+    $base-size: 16px; // Setup
+  }
+  @if $window-width >= 1025 {
+    $base-size: 17px; // Setup
+  }
+
+  @media screen and (min-width: #{$window-width}px) {
+    html {
+      font-size: $base-size;
+    }
+
+    $tsf: $tsf-smallest-query + ($tsf-delta-per-query * $i);
+    $h5-size: $base-size * $tsf;
+    $h4-size: $h5-size * $tsf;
+    $h3-size: $h4-size * $tsf;
+    $h2-size: $h3-size * $tsf;
+    $h1-size: $h2-size * $tsf;
+
+    h1 {
+      font-size: $h1-size;
+    }
+    h2 {
+      font-size: $h2-size;
+    }
+    h3 {
+      font-size: $h3-size;
+    }
+    h4 {
+      font-size: $h4-size;
+    }
+    h5 {
+      font-size: $h5-size;
+    }
+  }
+}
