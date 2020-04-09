@@ -7,4 +7,5 @@ There is now also an SCSS version without JavaScript, but it relies on media que
 
 Demos:  
 CSS + JS Version: https://codepen.io/msdr/pen/PoqMMBz
+
 SCSS Version: https://codepen.io/msdr/pen/abvbyNL
